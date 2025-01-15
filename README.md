@@ -1,4 +1,9 @@
 # 🎵 Jammming - React Spotify Playlist App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vite.dev/)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+[![Spotify](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)](https://developer.spotify.com/dashboard)
+[![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
 
 This is a React web application called **Jammming**, built with **Vite**, that allows users to search for tracks using the Spotify API, create custom playlists, and save them directly to their Spotify account.
 
@@ -29,7 +34,6 @@ This is a React web application called **Jammming**, built with **Vite**, that a
 ├── public
 │   ├── background_photo_desktop.jpg
 │   └── favicon.ico
-├── node_modules/    # Dependency files managed by npm [+X more files]
 ├── src
 │   ├── App.jsx
 │   ├── App.module.css
@@ -110,7 +114,13 @@ This is a React web application called **Jammming**, built with **Vite**, that a
    const clientID = "your-client-id-here";
    ```
 
-4. **Start the development server:**
+4. **Install dependencies:**
+
+    ```bash
+   npm install
+   ```
+
+5. **Start the development server:**
 
     ```bash
    npm run dev
